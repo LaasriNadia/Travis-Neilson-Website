@@ -127,6 +127,7 @@ header .logo-wrap .logo {
 
   header .burger.is-open span {
     background: transparent;
+
   }
 
   header .burger.is-open span:before {
@@ -182,6 +183,7 @@ header .logo-wrap .logo {
   /*   background-color: pink;
  */
   top: 0;
+  z-index: 0;
   /* left: 135px; */
   /* padding: 50px 0; */
 }
@@ -222,6 +224,7 @@ section .col-1 {
 @media (max-width: 640px) {
   #sections {
     position: absolute;
+    z-index: 1;
     top: 100px;
     left: 0;
     height: auto;

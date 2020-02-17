@@ -153,6 +153,8 @@ header .logo-wrap .logo {
 
   .mobile-nav.is-open {
     transform: translateY(0);
+    background: #333;
+    z-index: 99
   }
 
   .mobile-nav li {
